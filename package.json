@@ -1,0 +1,29 @@
+{
+    "name": "custom-auth-tutorial",
+    "version": "1.0.0",
+    "description": "custom authentication in express js",
+    "main": "server/index.js",
+    "scripts": {
+        "start": "node server",
+        "dev": "nodemon server --watch server"
+    },
+    "keywords": [
+        "custom",
+        "authentication",
+        "express"
+    ],
+    "author": "Ademola ademolamadelewi@gmail.com",
+    "license": "MIT",
+    "dependencies": {
+        "bcrypt": "*",
+        "body-parser": "*",
+        "cookie-parser": "*",
+        "dotenv": "*",
+        "express": "*",
+        "express-handlebars": "*",
+        "mysql2": "*",
+        "nodemon": "^1.19.1",
+        "sequelize": "*",
+        "sequelize-cli": "*"
+    }
+}
